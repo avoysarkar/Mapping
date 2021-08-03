@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       <h1 className="heading">My Contacts</h1>
-
+            {contacts.map(createCard)}
       {/* <Card
         name={contacts[0].name}
         img={contacts[0].imgURL}
